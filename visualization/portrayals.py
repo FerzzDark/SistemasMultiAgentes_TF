@@ -14,7 +14,6 @@ def agent_portrayal(agent):
             "Filled": "true",
             "r": 0.8,
             "Layer": 2,
-            # --- CAMBIO AQUÍ: Mostrar ID y Cantidad ---
             "text": f"{agent.unique_id}\n({agent.deliveries_count})", 
             "text_color": "white"
         }

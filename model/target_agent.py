@@ -1,4 +1,3 @@
-# model/target.py
 from mesa import Agent
 
 class Target(Agent):
